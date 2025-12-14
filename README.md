@@ -97,6 +97,13 @@ V_new = V_new - leak
 Bu mekanizma, biyolojik nöronlardaki **refrakter dönem** davranışını simüle eder.
 
 ---
+Birikme (Integrate) Olayının Rolü:
+
+Zamana Duyarlılık: Nöron, gelen dikenlerin sıklığına ve yakınlığına duyarlı hale gelir. Kısa sürede arka arkaya gelen birkaç girdi dikeni, sızıntıdan daha hızlı birikerek eşiği aşabilir ve nöronu ateşleyebilir.
+
+Filtreleme: Tek başına gelen, izole bir girdi dikeni, sızıntı nedeniyle eşiğe ulaşacak kadar birikemeyebilir ve nöronu ateşleyemez. Nöron böylece önemsiz veya zayıf girdileri filtrelemiş olur.
+
+Özetle: Sesin anlık enerji değişimi (Aşama 1) bir girdi dikeni üretir, ancak nöronun kendi ateşlemesi (Aşama 2) bu anlık girdilerin birikimli etkisine bağlıdır.
 
 ## Özet Akış
 
