@@ -1,4 +1,4 @@
-# Spike Tabanlı Ses Tanıma (Evet / Hayır)
+# Spike Tabanlı Ses Tanıma
 
 Bu projede **ham ses sinyallerinden spike (diken) dizileri** üretilerek **Leaky Integrate-and-Fire (LIF)** nöron modeli ile basit bir nöral hesaplama yapılmaktadır.
 
