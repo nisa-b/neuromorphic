@@ -1,6 +1,7 @@
 # Spike Tabanlı Ses Tanıma
 
 Bu projede **ham ses sinyallerinden spike (diken) dizileri** üretilerek **Leaky Integrate-and-Fire (LIF)** nöron modeli ile basit bir nöral hesaplama yapılmaktadır.
+Ses sinyalinin `cD` bileşenleri alınır. Belli bir thresholddan yüksek olanlar 1 düşük olanlar 0 olarak neurona verilir. 1 olanlar toparlanarak(integrate) yeterli seviyeye gelirse neuron aksiyon potansiyeli üretir.
 
 ---
 
