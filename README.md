@@ -45,7 +45,7 @@ Bu projede **ani değişimler** önemli olduğu için **yalnızca detay katsayı
 
 **Çıktı:**
 
-* Uzunluğu **50** olan, ikili bir spike dizisi:
+* Uzunluğu **25** olan, ikili bir spike dizisi:
 
 ```
 [0, 0, 0, 1, 1, 0, 1, 0, ...]
